@@ -1,8 +1,12 @@
 theme: jekyll-theme-leap-day
-title: [The title of your site]
-description: [A short description of your site's purpose] 
+
+gem "github-pages", group: :jekyll_plugins
+
+title: Kishan Mahabala Billava
+description: I am interested in Deeplearning with Computer Vision  
 show_downloads: "true"
 github:
   repository_url: https://github.com/KishanBillava/
   zip_url: ""
+  tar_url: ""
 
