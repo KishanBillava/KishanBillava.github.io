@@ -1,5 +1,8 @@
 theme: jekyll-theme-leap-day
-title: Kishan Mahabala Billava
+title: Kishan Mahabala Billava 
 description: I am interested in Deeplearning with Computer Vision 
+show_downloads: "true"
 github:
   repository_url: https://github.com/KishanBillava/
+  zip_url: ""
+
