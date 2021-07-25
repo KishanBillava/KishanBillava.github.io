@@ -2,5 +2,4 @@ theme: jekyll-theme-leap-day
 title: This is title of the page 
 description: This is description of the page 
 github:
-  zip_url: https://github.com/KishanBillava/
-  another_url: another value
+  repository_url: https://github.com/KishanBillava/
