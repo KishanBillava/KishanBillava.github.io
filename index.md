@@ -2,17 +2,39 @@
 
 ### About me
 
-![Image Profile](https://github.com/KishanBillava/KishanBillava.github.io/blob/main/_images/IMG.jpg)
+Completed B.E in Mechatronics from Acharya Institute of Technology
+Have 4 year of work experence in the field of Service Desk
+* Providing IT Support and assistance for AD account, Office365, VDI, Windows 10 and linux system 
+* Documentation for newly release module of the software, testing and bug reporting
+* Troubleshooting Software, Hardware and Network issue through phone, email and chat
 
-You can use the 
+**I have decided to chnage my career path, move from Support Engineer to AI Engineer**
 
-[GitHub Link](https://github.com/KishanBillava) 
-
-
+<hr>
 
 ### Projects 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Deploy Computer Vision Flask Web App using Python in CLOUD 
+* Skills acquired
+ > `Python Programming` | `Computer Vision` | `Flask` | `HTML` | `CSS` | `JavaScript` | 
+*  Ability 
+ > Deploy computer vision web app to cloud 
+* **Link to project** : [GitHub Link](https://github.com/KishanBillava/DeployCV_FlaskApp)
+ 
+ <hr>
+
+### Certification
+
+* Python programming 
+* PostgreSQL
+* Machine Learning
+* Computer Vision 
+
+ <hr>
+
+### Resume 
+
+Link to my resume :  
 
 ```markdown
 Syntax highlighted code block
@@ -31,13 +53,10 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+![Image Profile](https://github.com/KishanBillava/KishanBillava.github.io/blob/main/_images/IMG.jpg)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+You can use the 
 
-### Certification
+[GitHub Link](https://github.com/KishanBillava) 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KishanBillava/KishanBillava.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Resume 
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Jekyll `_config.yml` configuration
