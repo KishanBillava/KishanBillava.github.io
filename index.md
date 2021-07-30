@@ -7,7 +7,7 @@ Completed B.E in Mechatronics from Acharya Institute of Technology and have 4 ye
 * Documentation for newly release module of the software, testing and bug reporting
 * Troubleshooting Software, Hardware and Network issue through phone, email and chat
 
-**I have decided to chnage my career path, move from Support Engineer to AI Engineer**
+**I have decided to change my career path, move from Support Engineer to AI Engineer**
 
 <hr>
 
