@@ -2,8 +2,7 @@
 
 ### About me
 
-Completed B.E in Mechatronics from Acharya Institute of Technology
-Have 4 year of work experence in the field of Service Desk
+Completed B.E in Mechatronics from Acharya Institute of Technology and have 4 year of work experence as Service Desk Engineer
 * Providing IT Support and assistance for AD account, Office365, VDI, Windows 10 and linux system 
 * Documentation for newly release module of the software, testing and bug reporting
 * Troubleshooting Software, Hardware and Network issue through phone, email and chat
