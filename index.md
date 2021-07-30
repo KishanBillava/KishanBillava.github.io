@@ -8,7 +8,7 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
 * Providing IT Support for AD account, Office365, VDI, Windows 10 and linux system 
 * Documentation for newly release module of the software, testing and bug reporting
 * Troubleshooting Software, Hardware and Network issue through phone, email and chat
-* Knowledge of scripting languages Python and SQL
+* Knowledge of scripting language Python and SQL
 
 **I have decided to change my career path, move from Support Engineer to AI Engineer**
 
