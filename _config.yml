@@ -3,7 +3,7 @@ theme: jekyll-theme-leap-day
 gem "github-pages", group: :jekyll_plugins
 
 title: Kishan Mahabala Billava
-description: I am interested in Deeplearning with Computer Vision  
+description: Python Artificial Intelligence Developer Deep Learning with Computer Vision  
 show_downloads: "true"
 github:
   repository_url: https://github.com/KishanBillava/
