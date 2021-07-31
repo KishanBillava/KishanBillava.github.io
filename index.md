@@ -5,10 +5,10 @@
 ### About me
 
 Completed B.E in Mechatronics and have 4 year of work experence as Service Desk Engineer
-* Providing IT Support for AD account, Office365, VDI, Windows 10 and linux system 
-* Documentation for newly release module of the software, testing and bug reporting
-* Troubleshooting Software, Hardware and Network issue through phone, email and chat
-* Knowledge of scripting language Python and SQL
+- Providing IT Support for AD account, Office365, VDI, Windows 10 and linux system 
+- Documentation for newly release module of the software, testing and bug reporting
+- Troubleshooting Software, Hardware and Network issue through phone, email and chat
+- Knowledge of scripting language Python and SQL
 
 **I have decided to change my career path, move from Support Engineer to AI Engineer**
 
@@ -41,9 +41,6 @@ Link to my resume :
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
@@ -53,12 +50,4 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
 ```
-![Image Profile](https://github.com/KishanBillava/KishanBillava.github.io/blob/main/_images/IMG.jpg)
-
-You can use the 
-
-[GitHub Link](https://github.com/KishanBillava) 
-
-Jekyll `_config.yml` configuration
