@@ -39,15 +39,4 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
 Link to my resume :  
 
 ```markdown
-Syntax highlighted code block
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
 ```
