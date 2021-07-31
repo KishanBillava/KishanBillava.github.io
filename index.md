@@ -1,5 +1,5 @@
 ## Kishan Billava
-![Image](Image.png)
+![Image](image1.png)
 
 
 ### About me
