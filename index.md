@@ -18,11 +18,13 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
 
 #### Deploy Computer Vision Flask Web App using Python in Heroku Cloud  
 * Skills acquired
- > `Python Programming` | `Computer Vision` | `Flask` | `HTML` | `CSS` | `JavaScript` | `Heroku`
+ > Python Programming | Computer Vision | Flask |
+ >  HTML | CSS | JavaScript | Heroku
 *  Ability 
  > Deploy Computer Vision Flask Web App using Python in Heroku Cloud  
-* **Link to project** : [GitHub Link](https://github.com/KishanBillava/DeployCV_FlaskApp)
-* **Link to website** : [Heroku](https://flaskimageapp.herokuapp.com/)
+* **Link to Project** : [GitHub Link](https://github.com/KishanBillava/DeployCV_FlaskApp)
+* **Link to wWbsite** : [Heroku](https://flaskimageapp.herokuapp.com/)
+* **Link to Certification** : [Udemy](https://www.udemy.com/certificate/UC-2f3827c6-fadb-4f90-ae31-546cb41a44c3/)
  
  <hr>
 
@@ -41,3 +43,4 @@ Link to my resume :
 
 ```markdown
 ```
+`  `
