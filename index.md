@@ -10,32 +10,41 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
 - Troubleshooting Software, Hardware and Network issue through phone, email and chat
 - Knowledge of scripting language Python and SQL
 
-**I have decided to change my career path, move from Support Engineer to AI Engineer**
+**Decided to change career path, move from Support Engineer to AI Engineer**
 
-<hr>
-
-### Projects 
-
-#### Deploy Computer Vision Flask Web App using Python in Heroku Cloud  
-* Skills acquired
- > Python Programming | Computer Vision | Flask |
- >  HTML | CSS | JavaScript | Heroku
-*  Ability 
- > Deploy Computer Vision Flask Web App using Python in Heroku Cloud  
-* **Link to Project** : [GitHub Link](https://github.com/KishanBillava/DeployCV_FlaskApp)
-* **Link to wWbsite** : [Heroku](https://flaskimageapp.herokuapp.com/)
-* **Link to Certification** : [Udemy](https://www.udemy.com/certificate/UC-2f3827c6-fadb-4f90-ae31-546cb41a44c3/)
- 
- <hr>
-
-### Certification
+**Committed to life long learning, Engineer Skill set accuired so far** 
 
 * Python programming 
 * PostgreSQL
 * Machine Learning
 * Computer Vision 
+* Flask 
+* Django 
+* HTML & CSS
+* JavaScript 
 
+### Projects 
+
+#### **Deploy Computer Vision Flask Web App using Python in Heroku Cloud**
+* Skills acquired
+ > Python Programming Language for codding
+ > Computer Vision for image classification of model
+ > Flask, HTML, CSS, JavaScript for building web site
+ > Heroku Cloud for deployment
+ > Git commands
+*  **Ability** 
+ > Deploy Computer Vision Flask Web App using Python in Heroku Cloud  
+
+* **Links**
+ > Link Project on github : https://github.com/KishanBillava/DeployCV_FlaskApp 
+ > Link to Wbsite on Heroku Cloud : https://flaskimageapp.herokuapp.com/
+ > Link to Udemy Certification  https://www.udemy.com/certificate/UC-2f3827c6-fadb-4f90-ae31-546cb41a44c3/ 
+
+
+ 
  <hr>
+
+
 
 ### Resume 
 
