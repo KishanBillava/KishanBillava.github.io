@@ -21,6 +21,7 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
   - Machine Learning
   - Deep Learning
   - Computer Vision 
+  - Heroku
 * Web Development 
   - Flask 
   - Django 
