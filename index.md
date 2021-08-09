@@ -12,7 +12,7 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
 
 **Decided to change career path and move from Support Engineer to AI Engineer**
 
-**Committed to life long learning, engineering skill and knowledge accuired ** 
+**Committed to life long learning, engineering skill and knowledge accuired** 
 
 * Programming and Database
   - Python 
