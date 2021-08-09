@@ -34,9 +34,9 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
   - Git commands
 * **Result** 
   - Deploy Computer Vision Flask Web App using Python in Heroku Cloud  
-  - Link Project on github : https://github.com/KishanBillava/DeployCV_FlaskApp 
-  - Link to Wbsite on Heroku Cloud : https://flaskimageapp.herokuapp.com/
-  - Link to Udemy Certification  https://www.udemy.com/certificate/UC-2f3827c6-fadb-4f90-ae31-546cb41a44c3/ 
+  - Project on github       : https://github.com/KishanBillava/DeployCV_FlaskApp 
+  - Website on Heroku Cloud : https://flaskimageapp.herokuapp.com/
+  - Udemy Certification     : https://www.udemy.com/certificate/UC-2f3827c6-fadb-4f90-ae31-546cb41a44c3/ 
 
 
  
