@@ -10,23 +10,8 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
 - Troubleshooting Software, Hardware and Network issue through phone, email and chat
 - Knowledge of scripting language Python and SQL
 
-**Decided to change career path and move from Support Engineer to AI Engineer**
+**Looking to change career path and move from Support Engineer to AI Engineer**
 
-**Committed to life long learning, engineering skill and knowledge accuired** 
-
-* Programming and Database
-  - Python 
-  - PostgreSQL
-* Artificial Intelligence and Cloud  
-  - Machine Learning
-  - Deep Learning
-  - Computer Vision 
-  - Heroku
-* Web Development 
-  - Flask 
-  - Django 
-  - HTML & CSS
-  - JavaScript 
 
 ### Projects 
 
@@ -37,9 +22,9 @@ Completed B.E in Mechatronics and have 4 year of work experence as Service Desk 
   - Heroku Cloud for deployment and Git commands
 * **Result** 
   - Deploy Computer Vision Flask Web App using Python in Heroku Cloud  
-  - Project on github       : https://github.com/KishanBillava/DeployCV_FlaskApp 
-  - Website on Heroku Cloud : https://flaskimageapp.herokuapp.com/
-  - Udemy Certification     : https://www.udemy.com/certificate/UC-2f3827c6-fadb-4f90-ae31-546cb41a44c3/ 
+  - Project on github       : [Project Link ](https://github.com/KishanBillava/DeployCV_FlaskApp)
+  - Website on Heroku Cloud : [Website Link ](https://flaskimageapp.herokuapp.com/ )
+  - Udemy Certification     : [Certification Link ](https://www.udemy.com/certificate/UC-2f3827c6-fadb-4f90-ae31-546cb41a44c3/ )
 
 
  
