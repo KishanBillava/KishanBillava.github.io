@@ -3,7 +3,7 @@ theme: jekyll-theme-leap-day
 gem "github-pages", group: :jekyll_plugins
 
 title: Kishan Mahabala Billava
-description: Python Developer | Deep Learning | Artificial Intelligence | Computer Vision | Flask  
+description: Python Developer | Deep Learning | Artificial Intelligence | Computer Vision  
 show_downloads: "true"
 github:
   repository_url: https://github.com/KishanBillava/
