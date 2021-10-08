@@ -3,7 +3,7 @@ theme: jekyll-theme-leap-day
 gem "github-pages", group: :jekyll_plugins
 
 title: Kishan Billava
-description: Python Developer | Django | Machine Learning | 
+description: Python Developer | Web Development  | Machine Learning
 show_downloads: "true"
 github:
   repository_url: https://github.com/KishanBillava/
