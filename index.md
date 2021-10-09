@@ -32,7 +32,7 @@ Completed B.E in Mechatronics and have 4 year of work experience as Service Desk
 
 ### Resume 
 
-Link to my resume :  
+Link to my resume : [Resume Link ](https://drive.google.com/drive/folders/1ukoXfEIweNCqnal8PodXcBrwQElU2j2C)  
 
 ```markdown
 ```
