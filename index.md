@@ -58,15 +58,15 @@ Link to my resume : [Resume Link ]()
 ```markdown
 ```
 
-Programming : `Python` | `PostgreSQL` 
+Programming : `Python`  `PostgreSQL` 
 
-Web Application : `Django` | `HTML` | `CSS`
+Web Application : `Django` `HTML`  `CSS`
 
-Data Science : `NumPy` | `Pandas`
+Data Science : `NumPy`  `Pandas`
 
-Deep Learning : `Computer Vision` | `Keras` | `OpenCV`
+Deep Learning : `Computer Vision`  `Keras`  `OpenCV`
 
-Software : `VS Code` | `Atom` | `GitHub` | `Postman` | `pgAdmin4`
+Software : `VS Code`  `Atom`  `GitHub`  `Postman`  `pgAdmin4`
 
-Languages : `English` | `Hindi` | `Kannada` 
+Languages : `English`  `Hindi`  `Kannada` 
 
