@@ -7,16 +7,14 @@
 Completed B.E in Mechatronics and have 4 year of work experience as Service Desk Engineer
 Worked at Convergys, Kanrad Technologies, Unisys, Technosoft and
 Mindtree as support engineer between April 2016 to September 2021
-Deep Learning Roles and responsibilities
-• Providing IT Support for AD account, Office365, VDI, Windows 10
-and Linux system
-• Documentation for release module of the software, testing and bug
-reporting
-• Troubleshooting Software, Hardware and Network issue
-• Assisting end user customers and clients through phone, email and
-chat
-• Knowledge of ServiceNow ticketing tool and experience working 24-
-hour rotational shift
+Deep Learning 
+Roles and responsibilities
+  - Roles and responsibilities 
+  - Providing IT Support for AD account, Office365, VDI, Windows 10 and Linux system
+  - Documentation for release module of the software, testing and bug reporting 
+  - Troubleshooting Software, Hardware and Network issue 
+  - Assisting end user customers and clients through phone, email and chat 
+  - Knowledge of ServiceNow ticketing tool and experience working 24-hour rotational shift
 
 
 
