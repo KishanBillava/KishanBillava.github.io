@@ -56,5 +56,7 @@ test the flight in the simulation.
 Link to my resume : [Resume Link ](https://drive.google.com/file/d/1OpXUYR-LdfyqbDUkyQPcfs6AnW_XxXLN/view?usp=sharing)
 
 ```markdown
+Programming
+Python | PostgreSQL
 ```
-` Skills `
+` Python ` ` PostgreSQL ` ` Skills ` ` Skills ` ` Skills ` ` Skills ` ` Skills `
