@@ -56,24 +56,17 @@ test the flight in the simulation.
 Link to my resume : [Resume Link ](https://drive.google.com/file/d/1OpXUYR-LdfyqbDUkyQPcfs6AnW_XxXLN/view?usp=sharing)
 
 ```markdown
-
-Web Application
-Django | HTML | CSS
-
-Data Science
-NumPy | Pandas
-
-Deep Learning
-Computer Vision | Keras
-OpenCV
-
-Software
-VS Code | Atom | GitHub
-| Postman | pgAdmin4
-
-Languages
-English | Hindi | Kannada
-
 ```
 
 Programming : `Python` | `PostgreSQL` 
+
+Web Application : `Django` | `HTML` | `CSS`
+
+Data Science : `NumPy` | `Pandas`
+
+Deep Learning : `Computer Vision` | `Keras` | `OpenCV`
+
+Software : `VS Code` | `Atom` | `GitHub` | `Postman` | `pgAdmin4`
+
+Languages : `English` | `Hindi` | `Kannada` 
+
