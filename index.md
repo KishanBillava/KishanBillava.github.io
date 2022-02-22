@@ -53,7 +53,7 @@ test the flight in the simulation.
 
 ### Resume 
 
-Link to my resume : [Resume Link ](https://drive.google.com/file/d/1OpXUYR-LdfyqbDUkyQPcfs6AnW_XxXLN/view?usp=sharing)
+Link to my resume : [Resume Link ]()
 
 ```markdown
 ```
