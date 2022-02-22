@@ -62,7 +62,7 @@ Programming : `Python`  `PostgreSQL`
 
 Web Application : `Django` `HTML`  `CSS`
 
-Data Science : `NumPy`  `Pandas`
+Data Science : `NumPy`  `Pandas` `Matplotlib` `Scikit-Learn`
 
 Deep Learning : `Computer Vision`  `Keras`  `OpenCV`
 
