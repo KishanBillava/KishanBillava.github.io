@@ -56,8 +56,6 @@ test the flight in the simulation.
 Link to my resume : [Resume Link ](https://drive.google.com/file/d/1OpXUYR-LdfyqbDUkyQPcfs6AnW_XxXLN/view?usp=sharing)
 
 ```markdown
-Programming
-Python | PostgreSQL
 
 Web Application
 Django | HTML | CSS
@@ -77,4 +75,5 @@ Languages
 English | Hindi | Kannada
 
 ```
-`  ` 
+
+Programming : `Python` | `PostgreSQL` 
