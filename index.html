@@ -3,78 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kishan Billava | Portfolio</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Kishan Billava</h1>
-        <p>Robotics Software Engineer</p>
-    </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome! I am Kishan, a robotics software engineer specializing in autonomous systems, C++, computer vision, and image processing.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Name 1</h3>
-            <p>This project focuses on [describe what the project does, its purpose, and any standout features].</p>
-            <ul>
-                <li><strong>Technologies Used:</strong> C++, Python, ROS</li>
-                <li><strong>Skills Applied:</strong> Autonomous navigation, computer vision, SLAM</li>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar p-4">
+            <h2 class="text-primary">Kishan</h2>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home"><i class="bi bi-house-door"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about"><i class="bi bi-person"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects"><i class="bi bi-briefcase"></i> Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certifications"><i class="bi bi-award"></i> Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="bi bi-chat-dots"></i> Contact</a>
+                </li>
             </ul>
-            <a href="https://github.com/username/project-repo" target="_blank">View on GitHub</a>
-            <!-- Project Demo Video -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoID1" 
-                    title="Project Video Demo 1" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
+        </nav>
 
-        <div class="project">
-            <h3>Project Name 2</h3>
-            <p>This project explores [add a brief description of this project, including its purpose and outcomes].</p>
-            <ul>
-                <li><strong>Technologies Used:</strong> OpenCV, TensorFlow</li>
-                <li><strong>Skills Applied:</strong> Image processing, neural networks</li>
-            </ul>
-            <a href="https://github.com/username/project-repo2" target="_blank">View on GitHub</a>
-            <!-- Project Demo Video -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoID2" 
-                    title="Project Video Demo 2" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-    </section>
+        <!-- Main Content -->
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            
+            <!-- Home Section -->
+            <section id="home" class="pt-5">
+                <h2 class="display-5 fw-bold">Home</h2>
+                <p class="text-secondary">Welcome to my portfolio website.</p>
+            </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <div class="certification">
-            <h3>Certification Title 1</h3>
-            <p>Description of the certification and what it covers.</p>
-            <a href="https://linktocertificate.com" target="_blank">View Certificate</a>
-            <!-- Certification Demo Video -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoID3" 
-                    title="Certification Video Demo" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-    </section>
+            <!-- About Section -->
+            <section id="about" class="pt-5">
+                <h2 class="display-5 fw-bold">About Me</h2>
+                <p class="text-secondary">I'm Kishan, Robotics Software Engineer</p>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/username" target="_blank">LinkedIn</a> or visit my <a href="https://github.com/username" target="_blank">GitHub</a>.</p>
-    </section>
+                <div class="row">
+                    <!-- Personal Info -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Degree:</strong> Engineer</li>
+                            <li><strong>City:</strong> Bangloare, India</li>
+                        </ul>
+                        <button class="btn btn-danger mt-3">Hire Me</button>
+                    </div>
+
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Email:</strong> Kishan@gmail.com</li>
+                            <li><strong>Phone:</strong> +91 00000 00000</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="row my-4">
+                    <div class="col-md-6">
+                        <h6>ROS</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 96%;">96%</div>
+                        </div>
+                        <h6>Computer Vision</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 86%;">86%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>C++ </h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 96%;">96%</div>
+                        </div>
+                        <h6>Python</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 56%;">56%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education & Experience -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="fw-bold">Education</h4>
+                        <div class="card shadow-sm p-3 mb-4">
+                            <h5>BE Meachatronics </h5>
+                            <small>2010 - 2014</small>
+                            <p>Studying BE.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="fw-bold">Experience</h4>
+                        <div class="card shadow-sm p-3 mb-4">
+                            <h5>ROS - 2 Years</h5>
+                            <small>2022 - Present</small>
+                            <p> projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="pt-5">
+                <h2 class="display-5 fw-bold">Projects</h2>
+                
+                <!-- Project 1 -->
+                <div class="mb-4">
+                    <h3>Project Name 1</h3>
+                    <p>This project focuses on [describe what the project does, its purpose, and any standout features].</p>
+                    <p><strong>Technologies Used:</strong> C++, Python, ROS</p>
+                    <p><strong>Skills Applied:</strong> Autonomous navigation, computer vision, SLAM</p>
+                    <a href="https://github.com/your-project-link" class="btn btn-danger">View on GitHub</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="mb-4">
+                    <h3>Project Name 2</h3>
+                    <p>This project explores [add a brief description of this project, including its purpose and outcomes].</p>
+                    <p><strong>Technologies Used:</strong> OpenCV, TensorFlow</p>
+                    <p><strong>Skills Applied:</strong> Image processing, neural networks</p>
+                    <a href="https://github.com/your-project-link" class="btn btn-danger">View on GitHub</a>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="pt-5">
+                <h2 class="display-5 fw-bold">Certifications</h2>
+
+                <!-- Certification 1 -->
+                <div class="mb-4">
+                    <h3>Certification Title 1</h3>
+                    <p>Description of the certification and what it covers.</p>
+                    <a href="https://link-to-certificate" class="btn btn-danger">View Certificate</a>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="mb-4">
+                    <h3>Certification Title 2</h3>
+                    <p>Description of the certification and what it covers.</p>
+                    <a href="https://link-to-certificate" class="btn btn-danger">View Certificate</a>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="pt-5">
+                <h2 class="display-5 fw-bold">Contact</h2>
+                <p>Connect with me on LinkedIn or visit my GitHub:</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/your-linkedin" class="btn btn-primary">LinkedIn</a></li>
+                    <li><a href="https://github.com/your-github" class="btn btn-dark">GitHub</a></li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"></script>
+
+<!-- Smooth Scroll Script -->
+<script>
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
 </body>
 </html>
-
