@@ -73,3 +73,21 @@ main {
     background-color: #b71c1c;
     border-color: #b71c1c;
 }
+/* Certificates Section */
+#certifications img {
+    border-radius: 10px; /* Match portfolio card styling */
+    max-width: 300px; /* Limit image size */
+    height: auto;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visual appeal */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+}
+
+#certifications img:hover {
+    transform: scale(1.05); /* Scale slightly on hover */
+}
+
+#certifications .btn-danger {
+    margin-top: 10px;
+    display: inline-block;
+}
