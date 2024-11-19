@@ -73,18 +73,28 @@ main {
     background-color: #b71c1c;
     border-color: #b71c1c;
 }
-/* Certificates Section */
-#certifications img {
-    border-radius: 10px; /* Match portfolio card styling */
-    max-width: 300px; /* Limit image size */
-    height: auto;
-    margin-bottom: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visual appeal */
-    transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+
+/* Styling for certifications section */
+#certifications .row {
+    display: flex;
+    justify-content: center;
 }
 
-#certifications img:hover {
-    transform: scale(1.05); /* Scale slightly on hover */
+#certifications .d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.cert-image {
+    max-width: 350px; /* Increase image size */
+    height: auto;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.cert-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 #certifications .btn-danger {
