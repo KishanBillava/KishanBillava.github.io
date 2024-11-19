@@ -74,30 +74,29 @@ main {
     border-color: #b71c1c;
 }
 
-/* Styling for certifications section */
-#certifications .row {
-    display: flex;
-    justify-content: center;
-}
-
-#certifications .d-flex {
-    display: flex;
-    align-items: center;
-}
-
-.cert-image {
-    max-width: 350px; /* Increase image size */
+/* Certifications Section */
+#certifications img {
+    border-radius: 10px; /* Match portfolio card styling */
+    max-width: 300px; /* Limit image size */
     height: auto;
     margin-bottom: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
-    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visual appeal */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
 }
 
-.cert-image:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+#certifications img:hover {
+    transform: scale(1.05); /* Scale slightly on hover */
 }
 
 #certifications .btn-danger {
     margin-top: 10px;
     display: inline-block;
+}
+
+#certifications h3, #certifications p {
+    text-align: center; /* Keeps the text centered below the image */
+}
+
+#certifications h2 {
+    text-align: left; /* Aligns the Certifications title to the left */
 }
