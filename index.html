@@ -1,221 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kishan Robotics • Full-Stack Robotics Engineer</title>
+<link rel="canonical" href="https://kishanbillava.github.io/"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html{scroll-behavior:smooth}
+  :root{--grid:#e5e7eb;--ink:#0f172a;--brand:#1d4ed8;--accent:#f59e0b}
+  .grid-bg{
+    background:
+      linear-gradient(0deg, rgba(255,255,255,.92), rgba(255,255,255,.92)),
+      repeating-linear-gradient(0deg, var(--grid) 0, var(--grid) 1px, transparent 1px, transparent 40px),
+      repeating-linear-gradient(90deg, var(--grid) 0, var(--grid) 1px, transparent 1px, transparent 40px);
+  }
+  .section{padding:5.5rem 0}
+  .card{background:#fff;border:1px solid rgba(2,6,23,.06);border-radius:1.2rem;box-shadow:0 10px 25px rgba(2,6,23,.06);overflow:hidden}
+  .tag{border:1px solid rgba(2,6,23,.12);border-radius:9999px;padding:.2rem .55rem;font-size:.75rem;white-space:nowrap}
+  .headerbar{background:#111827;color:#e5e7eb;padding:.4rem .5rem;font-size:.72rem;display:flex;gap:.35rem;flex-wrap:wrap}
+  .card-img{width:100%;height:11rem;object-fit:cover;display:block}
+  .nav-active{color:var(--brand)!important}
+  .btn{border-radius:9999px;padding:.65rem 1rem;font-weight:700}
+  .btn-ghost{border:1px solid rgba(2,6,23,.12)}
+  .btn-brand{background:var(--brand);color:#fff}
+  @media (min-width:768px){ .card-img{height:14rem} }
+  @media print{
+    nav, header, #projects, #certs, #experience, #math, #blog, #research, #activities, #books, #contact {display:none!important}
+    #resume{display:block!important}
+  }
+</style>
 </head>
-<body>
+<body class="bg-gray-50 text-slate-900">
 
-<div class="container-fluid">
-    <div class="row">
-        <!-- Sidebar -->
-        <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar p-4">
-            <h2 class="text-primary">Kishan</h2>
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home"><i class="bi bi-house-door"></i> Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about"><i class="bi bi-person"></i> About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects"><i class="bi bi-briefcase"></i> Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#certifications"><i class="bi bi-award"></i> Certifications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact"><i class="bi bi-chat-dots"></i> Contact</a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- Main Content -->
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-            
-            <!-- Home Section -->
-            <section id="home" class="pt-5">
-                <h2 class="display-5 fw-bold">Home</h2>
-                <p class="text-secondary">Welcome to my portfolio website.</p>
-            </section>
-
-            <!-- About Section -->
-            <section id="about" class="pt-5">
-                <h2 class="display-5 fw-bold">About Me</h2>
-                <p class="text-secondary">I'm Kishan, Robotics Software Engineer</p>
-
-                <div class="row">
-                    <!-- Personal Info -->
-                    <div class="col-md-6">
-                        <ul class="list-unstyled">
-                            <li><strong>Degree:</strong> Engineer</li>
-                            <li><strong>City:</strong> Bangloare, India</li>
-                        </ul>
-                        <button class="btn btn-danger mt-3">Hire Me</button>
-                    </div>
-
-                    <div class="col-md-6">
-                        <ul class="list-unstyled">
-                            <li><strong>Email:</strong> Kishan@gmail.com</li>
-                            <li><strong>Phone:</strong> +91 00000 00000</li>
-
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Skills -->
-                <div class="row my-4">
-                    <div class="col-md-6">
-                        <h6>ROS</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 96%;">96%</div>
-                        </div>
-                        <h6>Computer Vision</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 86%;">86%</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h6>C++ </h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 96%;">96%</div>
-                        </div>
-                        <h6>Python</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 56%;">56%</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Education & Experience -->
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4 class="fw-bold">Education</h4>
-                        <div class="card shadow-sm p-3 mb-4">
-                            <h5>BE Meachatronics </h5>
-                            <small>year</small>
-                            <p>Studying BE.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="fw-bold">Experience</h4>
-                        <div class="card shadow-sm p-3 mb-4">
-                            <h5>ROS - 2 Years</h5>
-                            <small>year Present</small>
-                            <p> projects.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Projects Section -->
-            <section id="projects" class="pt-5">
-                <h2 class="display-5 fw-bold">Projects</h2>
-                
-                <!-- Project 1 -->
-                <div class="mb-4">
-                    <h3>Project Name 1</h3>
-                    <p>This project focuses on [describe what the project does, its purpose, and any standout features].</p>
-                    <p><strong>Technologies Used:</strong> C++, Python, ROS</p>
-                    <p><strong>Skills Applied:</strong> Autonomous navigation, computer vision, SLAM</p>
-                    <a href="https://github.com/your-project-link" class="btn btn-danger">View on GitHub</a>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="mb-4">
-                    <h3>Project Name 2</h3>
-                    <p>This project explores [add a brief description of this project, including its purpose and outcomes].</p>
-                    <p><strong>Technologies Used:</strong> OpenCV, TensorFlow</p>
-                    <p><strong>Skills Applied:</strong> Image processing, neural networks</p>
-                    <a href="https://github.com/your-project-link" class="btn btn-danger">View on GitHub</a>
-                </div>
-            </section>
-
-        <!-- Certifications Section -->
-        <section id="certifications" class="pt-5">
-            <h2 class="display-5 fw-bold text-start">Certifications</h2> <!-- Aligns the section title to the left -->
-
-            <!-- Flex container for certificates -->
-            <div class="d-flex flex-wrap justify-content-between">
-                <!-- Certification 1 -->
-                <div class="text-center mb-4 certificate-card">
-                    <img src="images/UdacityROS.png" alt="Certification 1" class="img-fluid">
-                    <div class="me-4">
-                        <h3>Robotics Software Engineer</h3>
-                        <p>Udacity Nanodegree Program Completion: Robotics Software Engineer</p>
-                    </div>
-                    <a href="https://www.udacity.com/certificate/e/a25955f8-1f60-11ee-92a0-b701df591ba1" target="_blank" class="btn btn-danger">View Certificate</a>
-                </div>
-
-                <!-- Certification 2 -->
-                <div class="text-center mb-4 certificate-card">
-                    <img src="images/UdacityROS.png" alt="Certification 2" class="img-fluid">
-                    <div class="me-4">
-                        <h3>Robotics Software Engineer</h3>
-                        <p>Description of the certification and what it covers.</p>
-                    </div>
-                    <a href="www.udacity.com/certificate/e/a25955f8-1f60-11ee-92a0-b701df591ba1" target="_blank" class="btn btn-danger">View Certificate</a>
-                </div>
-
-                <!-- Certification 3 -->
-                <div class="text-center mb-4 certificate-card">
-                    <img src="images/UdacityROS.png" alt="Certification 3" class="img-fluid">
-                    <div class="me-4">
-                        <h3>Robotics Software Engineer</h3>
-                        <p>Description of the certification and what it covers.</p>
-                    </div>
-                    <a href="www.udacity.com/certificate/e/a25955f8-1f60-11ee-92a0-b701df591ba1" target="_blank" class="btn btn-danger">View Certificate</a>
-                </div>
-
-                <!-- Certification 4 -->
-                <div class="text-center mb-4 certificate-card">
-                    <img src="images/UdacityROS.png" alt="Certification 4" class="img-fluid">
-                    <div class="me-4">
-                        <h3>Robotics Software Engineer</h3>
-                        <p>Description of the certification and what it covers.</p>
-                    </div>
-                    <a href="www.udacity.com/certificate/e/a25955f8-1f60-11ee-92a0-b701df591ba1" target="_blank" class="btn btn-danger">View Certificate</a>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-
-            <!-- Contact Section -->
-            <section id="contact" class="pt-5">
-                <h2 class="display-5 fw-bold">Contact</h2>
-                <p>Connect with me on LinkedIn or visit my GitHub:</p>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/your-linkedin" class="btn btn-primary">LinkedIn</a></li>
-                    <li><a href="https://github.com/your-github" class="btn btn-dark">GitHub</a></li>
-                </ul>
-            </section>
-
-        </main>
+<!-- NAV -->
+<nav class="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-5 py-3 flex items-center justify-between">
+    <a href="#hero" class="flex items-center gap-2 font-extrabold">
+      <span class="w-8 h-8 rounded-lg bg-blue-600 text-white grid place-items-center">KB</span>
+      <span>Kishan Robotics</span>
+    </a>
+    <div id="navLinks" class="hidden md:flex gap-6 text-sm">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#certs">Certificates</a><a href="#experience">Experience</a><a href="#math">Math</a>
+      <a href="#blog">Blog</a><a href="#research">Research</a><a href="#activities">Activities</a>
+      <a href="#books">Books</a><a href="#resume">Resume</a><a href="#contact">Contact</a>
     </div>
-</div>
+  </div>
+</nav>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"></script>
+<!-- HERO -->
+<header id="hero" class="grid-bg pt-28 pb-12">
+  <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-[1.05]">
+        Full-Stack <span class="text-blue-700">Robotics</span> Engineer<br/>
+        bridging <span class="text-amber-500">ROS&nbsp;2</span>, <span class="text-blue-700">Isaac&nbsp;Sim</span>,<br/>
+        AMRs, Cobots & PLCs
+      </h1>
+      <p class="mt-5 text-slate-700 text-lg max-w-xl">
+        I build robotic ecosystems that connect perception, control and cloud—delivering autonomous workflows in simulation and on the factory floor.
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#projects" class="btn btn-brand">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+      </div>
+      <p class="mt-4 text-sm text-slate-500">Tech: ROS&nbsp;2 • C++20 • Python • Isaac Sim • Docker • MQTT • Redis • MongoDB • Modbus TCP • OpenCV</p>
+    </div>
 
-<!-- Smooth Scroll Script -->
+    <!-- Featured project with image + pills bar -->
+    <figure class="card">
+      <div class="headerbar">
+        <span class="tag bg-white/10 border-white/20">isaac-sim</span>
+        <span class="tag bg-white/10 border-white/20">ros2</span>
+        <span class="tag bg-white/10 border-white/20">mqtt</span>
+        <span class="tag bg-white/10 border-white/20">plc</span>
+        <span class="tag bg-white/10 border-white/20">cobot</span>
+      </div>
+      <img loading="lazy" class="card-img" src="https://images.unsplash.com/photo-1581093458608-0f9f5f9b9c49?q=80&w=1600&auto=format&fit=crop" alt="Omron MoMa Digital Twin"/>
+      <figcaption class="p-5">
+        <h3 class="font-semibold">Omron MoMa Digital Twin</h3>
+        <p class="text-sm text-slate-600 mt-1">LD-250 AMR + TM12 Cobot + NX102 PLC synchronized via ROS&nbsp;2 & MQTT in Isaac Sim.</p>
+        <div class="mt-3 flex gap-4 text-sm">
+          <a class="underline text-blue-700" href="https://youtu.be/VIDEO_ID" target="_blank">Demo</a>
+          <a class="underline text-blue-700" href="https://github.com/kishanbillava" target="_blank">GitHub</a>
+          <a class="underline text-blue-700" href="#" target="_blank">Docs</a>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="max-w-7xl mx-auto px-5 grid md:grid-cols-3 gap-10">
+    <div>
+      <h2 class="text-3xl font-extrabold">About Me</h2>
+      <p class="mt-2 text-sm text-slate-500">Robotics • Simulation • Industrial Integration</p>
+    </div>
+    <div class="md:col-span-2 leading-relaxed text-lg">
+      <p>I design end-to-end robotic systems that unify <b>AMRs, cobots, PLCs, and AI vision</b>. My stack spans embedded control to cloud microservices, with reproducible testing in <b>NVIDIA Isaac Sim</b> and deployment via <b>ROS&nbsp;2</b>.</p>
+      <p class="mt-4"><b>Core expertise:</b> ROS&nbsp;2 · C++/Python · Modbus TCP · MQTT · Microservices · CV · Docker · Redis · MongoDB.</p>
+      <p class="mt-4">Currently building a modular <em>robot_server</em> OS to orchestrate jobs, telemetry and analytics across mixed fleets of Omron LD-250 and TM12s.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section bg-white">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Skills</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop" alt="Robotics & Simulation"/>
+        <div class="p-6">
+          <h3 class="font-semibold">Robotics & Simulation</h3>
+          <div class="mt-3 flex flex-wrap gap-2"><span class="tag">ROS 2</span><span class="tag">Isaac Sim</span><span class="tag">Open-RMF</span><span class="tag">SLAM</span><span class="tag">HIL/SIL</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?q=80&w=1600&auto=format&fit=crop" alt="Industrial IO"/>
+        <div class="p-6">
+          <h3 class="font-semibold">Industrial & IO</h3>
+          <div class="mt-3 flex flex-wrap gap-2"><span class="tag">Omron LD-250</span><span class="tag">TM12</span><span class="tag">NX102 PLC</span><span class="tag">Modbus TCP</span><span class="tag">2D/3D Cameras</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop" alt="Backend & Services"/>
+        <div class="p-6">
+          <h3 class="font-semibold">Backend & Services</h3>
+          <div class="mt-3 flex flex-wrap gap-2"><span class="tag">C++20</span><span class="tag">Python</span><span class="tag">MQTT</span><span class="tag">gRPC</span><span class="tag">REST</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="AI for Robotics"/>
+        <div class="p-6">
+          <h3 class="font-semibold">AI for Robotics (RL/CV/DL)</h3>
+          <p class="text-sm text-slate-600 mt-2">PPO / SAC / DQN • Imitation learning • ViT/Detectors • 3D perception.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1600&auto=format&fit=crop" alt="Self-Driving"/>
+        <div class="p-6">
+          <h3 class="font-semibold">Self-Driving (AV)</h3>
+          <div class="mt-3 flex flex-wrap gap-2"><span class="tag">HD Maps</span><span class="tag">Localization</span><span class="tag">Perception</span><span class="tag">Prediction</span><span class="tag">Planning</span><span class="tag">Control</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1600&auto=format&fit=crop" alt="Sensor Fusion"/>
+        <div class="p-6">
+          <h3 class="font-semibold">Sensor Fusion</h3>
+          <div class="mt-3 flex flex-wrap gap-2"><span class="tag">EKF/UKF</span><span class="tag">Particle</span><span class="tag">Cam+LiDAR+IMU</span><span class="tag">Wheel Odom</span><span class="tag">Time Sync</span><span class="tag">Calibration</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="flex items-end justify-between">
+      <div><h2 class="text-3xl font-extrabold">Projects</h2><p class="text-slate-500">Flagship and selected works</p></div>
+      <a class="text-blue-700 text-sm underline" target="_blank" href="https://github.com/kishanbillava">GitHub ↗</a>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <article class="card">
+        <div class="headerbar"><span class="tag">ros2</span><span class="tag">isaac-sim</span><span class="tag">mqtt</span></div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1581093588401-16fa3b22c1d8?q=80&w=1600&auto=format&fit=crop" alt="Omron MoMa twin">
+        <div class="p-5">
+          <h3 class="font-semibold">Omron MoMa Digital Twin</h3>
+          <p class="text-slate-600 text-sm mt-2">ROS&nbsp;2 actions → MQTT → PLC (Modbus). Isaac Sim orchestration.</p>
+          <div class="mt-4 flex gap-4 text-sm"><a class="underline text-blue-700" href="https://youtu.be/VIDEO_ID" target="_blank">Demo</a><a class="underline text-blue-700" href="https://github.com/kishanbillava" target="_blank">GitHub</a><a class="underline text-blue-700" href="#" target="_blank">Docs</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="headerbar"><span class="tag">flask</span><span class="tag">redis</span><span class="tag">mongodb</span></div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop" alt="Microservices">
+        <div class="p-5">
+          <h3 class="font-semibold">robot_server Microservices</h3>
+          <p class="text-slate-600 text-sm mt-2">Jobs, telemetry, analytics and REST/MQTT APIs. Dockerized.</p>
+          <div class="mt-4 flex gap-4 text-sm"><a class="underline text-blue-700" href="https://github.com/kishanbillava" target="_blank">GitHub</a><a class="underline text-blue-700" href="#" target="_blank">Docs</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="headerbar"><span class="tag">c++20</span><span class="tag">python</span><span class="tag">mqtt</span></div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1555617117-08fda9d218b6?q=80&w=1600&auto=format&fit=crop" alt="AMR Simulator">
+        <div class="p-5">
+          <h3 class="font-semibold">AMR Simulator & VFM Bridge</h3>
+          <p class="text-slate-600 text-sm mt-2">Emulates Fleet Manager & LD-250 behaviour for CI testing.</p>
+          <div class="mt-4 flex gap-4 text-sm"><a class="underline text-blue-700" href="https://github.com/kishanbillava" target="_blank">GitHub</a><a class="underline text-blue-700" href="#" target="_blank">Docs</a></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certs" class="section bg-white">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Certificates</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1600&auto=format&fit=crop" alt="C++ certificate">
+        <div class="p-6"><h3 class="font-semibold">Modern C++ (C++17/20)</h3><p class="text-sm text-slate-600 mt-2">Templates, concurrency, move semantics, tooling.</p><a class="underline text-blue-700 text-sm mt-3 inline-block" href="#" target="_blank">View</a></div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=1600&auto=format&fit=crop" alt="ROS2 certificate">
+        <div class="p-6"><h3 class="font-semibold">ROS&nbsp;2 Robotics Developer</h3><p class="text-sm text-slate-600 mt-2">Nodes, actions, colcon, launch, integration.</p><a class="underline text-blue-700 text-sm mt-3 inline-block" href="#" target="_blank">View</a></div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1551281044-8af39c4f0b9b?q=80&w=1600&auto=format&fit=crop" alt="DL certificate">
+        <div class="p-6"><h3 class="font-semibold">Deep Learning / CV</h3><p class="text-sm text-slate-600 mt-2">Detectors, segmentation, training workflows.</p><a class="underline text-blue-700 text-sm mt-3 inline-block" href="#" target="_blank">View</a></div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="RL certificate">
+        <div class="p-6"><h3 class="font-semibold">Reinforcement Learning</h3><p class="text-sm text-slate-600 mt-2">PPO/SAC/DQN; sim-to-real considerations.</p><a class="underline text-blue-700 text-sm mt-3 inline-block" href="#" target="_blank">View</a></div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1581093588401-16fa3b22c1d8?q=80&w=1600&auto=format&fit=crop" alt="PLC certificate">
+        <div class="p-6"><h3 class="font-semibold">PLC & Industrial Networks</h3><p class="text-sm text-slate-600 mt-2">Modbus TCP, ladder/ST basics, safety.</p><a class="underline text-blue-700 text-sm mt-3 inline-block" href="#" target="_blank">View</a></div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Docker certificate">
+        <div class="p-6"><h3 class="font-semibold">Docker & CI/CD</h3><p class="text-sm text-slate-600 mt-2">Images, compose, Actions pipelines.</p><a class="underline text-blue-700 text-sm mt-3 inline-block" href="#" target="_blank">View</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Experience & Milestones</h2>
+    <div class="grid md:grid-cols-2 gap-8 mt-8">
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?q=80&w=1600&auto=format&fit=crop" alt="Omron integration"><div class="p-6"><h3 class="font-semibold">Omron MoMa Integration — AMR + TM12 + NX102</h3><p class="text-sm text-slate-600 mt-2">Fleet ops, job dispatch, PLC↔TMFlow mapping, Modbus TCP datapath, safety interlocks.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop" alt="Microservices"><div class="p-6"><h3 class="font-semibold">robot_server Microservices</h3><p class="text-sm text-slate-600 mt-2">Flask/FastAPI, MQTT topics, MongoDB device graph, Redis queues, CI/CD.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Isaac Sim"><div class="p-6"><h3 class="font-semibold">Isaac Sim Pipelines</h3><p class="text-sm text-slate-600 mt-2">ROS 2 bridge, DLSS/headless, joint streams, controller validation on Ubuntu 22.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1600&auto=format&fit=crop" alt="Smart rack"><div class="p-6"><h3 class="font-semibold">Smart Rack & Embedded</h3><p class="text-sm text-slate-600 mt-2">ESP32 trays, RS-485 bus, Pi master, sensors, PCB prototypes, Modbus↔MQTT.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MATH -->
+<section id="math" class="section bg-white">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Math & Theoretical Skills</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1526401485004-2fda9f4b2f81?q=80&w=1600&auto=format&fit=crop" alt="Linear algebra"><div class="p-6"><h3 class="font-semibold">Linear Algebra</h3><p class="text-sm text-slate-700 mt-2">SVD, eigen, Lie groups (SE2/SE3).</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1600&auto=format&fit=crop" alt="Optimization"><div class="p-6"><h3 class="font-semibold">Calculus & Optimization</h3><p class="text-sm text-slate-700 mt-2">Gradients/Jacobians, convex & constrained opt.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=1600&auto=format&fit=crop" alt="Estimation"><div class="p-6"><h3 class="font-semibold">Probability & Estimation</h3><p class="text-sm text-slate-700 mt-2">Bayes filters, EKF/UKF, particles, fusion.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop" alt="Controls"><div class="p-6"><h3 class="font-semibold">Controls</h3><p class="text-sm text-slate-700 mt-2">PID, LQR, MPC intuition.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1600&auto=format&fit=crop" alt="Graphs"><div class="p-6"><h3 class="font-semibold">Graph Theory</h3><p class="text-sm text-slate-700 mt-2">Pose/factor graphs, shortest paths.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1551281044-8af39c4f0b9b?q=80&w=1600&auto=format&fit=crop" alt="Numerical methods"><div class="p-6"><h3 class="font-semibold">Numerical Methods</h3><p class="text-sm text-slate-700 mt-2">Solvers, conditioning, precision trade-offs.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="section">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Blog</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <article class="card">
+        <div class="headerbar"><span class="tag">ros2</span><span class="tag">mqtt</span></div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1535930749574-1399327ce78f?q=80&w=1600&auto=format&fit=crop" alt="ROS2 MQTT">
+        <div class="p-6">
+          <h3 class="font-semibold">ROS 2 ↔ MQTT Bridges for AMR Fleets</h3>
+          <p class="text-slate-600 text-sm mt-2">QoS, schema, retries, backpressure.</p>
+          <a class="underline text-blue-700 text-sm mt-3 inline-block" href="https://gist.github.com/kishanbillava" target="_blank">Read</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="headerbar"><span class="tag">plc</span><span class="tag">modbus</span></div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1581093588401-16fa3b22c1d8?q=80&w=1600&auto=format&fit=crop" alt="PLC patterns">
+        <div class="p-6">
+          <h3 class="font-semibold">Modbus TCP Patterns for PLC↔Cobot Cells</h3>
+          <p class="text-slate-600 text-sm mt-2">Register maps, errors, heartbeat, safety.</p>
+          <a class="underline text-blue-700 text-sm mt-3 inline-block" href="https://gist.github.com/kishanbillava" target="_blank">Read</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="headerbar"><span class="tag">isaac-sim</span><span class="tag">perf</span></div>
+        <img class="card-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Isaac Sim Benchmark">
+        <div class="p-6">
+          <h3 class="font-semibold">Benchmarking Isaac Sim Headless on RTX 3050</h3>
+          <p class="text-slate-600 text-sm mt-2">DLSS, message rates, CPU/GPU profiling.</p>
+          <a class="underline text-blue-700 text-sm mt-3 inline-block" href="https://gist.github.com/kishanbillava" target="_blank">Read</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="section bg-white">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Research</h2>
+    <div class="grid md:grid-cols-2 gap-8 mt-8">
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop" alt="SLAM & Perception">
+        <div class="p-6">
+          <h3 class="font-semibold">SLAM & Perception</h3>
+          <ul class="mt-3 text-sm text-slate-700 space-y-2">
+            <li>• Durrant-Whyte & Bailey — <em>SLAM: Part I/II</em></li>
+            <li>• Mur-Artal & Tardós — <em>ORB-SLAM2</em></li>
+            <li>• He et al. — <em>Mask R-CNN</em></li>
+            <li>• Dosovitskiy et al. — <em>ViT</em></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1600&auto=format&fit=crop" alt="Reinforcement Learning">
+        <div class="p-6">
+          <h3 class="font-semibold">Reinforcement Learning</h3>
+          <ul class="mt-3 text-sm text-slate-700 space-y-2">
+            <li>• Mnih et al. — <em>DQN</em></li><li>• Schulman et al. — <em>PPO</em></li>
+            <li>• Haarnoja et al. — <em>SAC</em></li><li>• Levine et al. — <em>GPS</em></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="Estimation & Control">
+        <div class="p-6"><h3 class="font-semibold">Estimation & Control</h3><ul class="mt-3 text-sm text-slate-700 space-y-2"><li>• Thrun et al. — <em>Probabilistic Robotics</em></li><li>• Mayne — <em>Model Predictive Control</em></li></ul></div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Optimization & Training">
+        <div class="p-6"><h3 class="font-semibold">Optimization & Training</h3><ul class="mt-3 text-sm text-slate-700 space-y-2"><li>• Smith & Topin — <em>Superconvergence</em></li><li>• Kingma & Ba — <em>Adam</em></li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section id="activities" class="section">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Activities & Interests</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?q=80&w=1600&auto=format&fit=crop" alt="Marathon"><div class="p-6"><h3 class="font-semibold">🏃‍♂️ Marathons</h3><p class="text-sm text-slate-700 mt-2">Pacing, consistency, resilience.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=1600&auto=format&fit=crop" alt="Football"><div class="p-6"><h3 class="font-semibold">⚽ Football</h3><p class="text-sm text-slate-700 mt-2">Teamwork, strategy, endurance.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop" alt="Maker"><div class="p-6"><h3 class="font-semibold">📸 Tinkering & Maker</h3><p class="text-sm text-slate-700 mt-2">Electronics, sensors, rapid prototyping.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKS -->
+<section id="books" class="section bg-white">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Books I’ve Read</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop" alt="Probabilistic Robotics"><div class="p-6"><h3 class="font-semibold">Probabilistic Robotics — Thrun, Burgard, Fox</h3><p class="text-sm text-slate-700 mt-2">Bayesian estimation, filters, SLAM.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0ea?q=80&w=1600&auto=format&fit=crop" alt="DL Book"><div class="p-6"><h3 class="font-semibold">Deep Learning — Goodfellow et al.</h3><p class="text-sm text-slate-700 mt-2">Optimization & representation.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=1600&auto=format&fit=crop" alt="Hands-On ML"><div class="p-6"><h3 class="font-semibold">Hands-On Machine Learning — Géron</h3><p class="text-sm text-slate-700 mt-2">Practical pipelines.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=1600&auto=format&fit=crop" alt="DDIA"><div class="p-6"><h3 class="font-semibold">Designing Data-Intensive Apps — Kleppmann</h3><p class="text-sm text-slate-700 mt-2">Reliability & scalability.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0ea?q=80&w=1600&auto=format&fit=crop" alt="Clean Code"><div class="p-6"><h3 class="font-semibold">Clean Code — R. Martin</h3><p class="text-sm text-slate-700 mt-2">Maintainable software craft.</p></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop" alt="Algorithms"><div class="p-6"><h3 class="font-semibold">Algorithms — Dasgupta et al.</h3><p class="text-sm text-slate-700 mt-2">Core algorithms thinking.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Resume</h2>
+    <p class="text-slate-700 mt-2">One-page summary with links to GitHub projects and highlights.</p>
+    <div class="mt-5 flex flex-wrap gap-3">
+      <a href="./resume.pdf" class="btn btn-brand">⬇ Download PDF</a>
+      <button onclick="window.print()" class="btn btn-ghost">🖨 Print</button>
+      <a href="#contact" class="btn btn-ghost">Contact Me</a>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8 mt-8">
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1551281044-8af39c4f0b9b?q=80&w=1600&auto=format&fit=crop" alt="Resume core"><div class="p-6"><h3 class="font-semibold">Core</h3><ul class="mt-3 text-sm text-slate-700 space-y-2"><li>• Robotics: ROS 2, AMR/cobot cells, PLC integration</li><li>• AI: RL (PPO/SAC/DQN), CV (detectors/segm./ViT)</li><li>• AV: mapping, localization, perception, planning, control</li><li>• Fusion: EKF/UKF/particles; cam–LiDAR–IMU–wheel odom</li><li>• Languages: C++20, Python • Infra: Docker, Actions, MongoDB, Redis</li></ul></div></div>
+      <div class="card"><img class="card-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Resume highlights"><div class="p-6"><h3 class="font-semibold">Highlights</h3><ul class="mt-3 text-sm text-slate-700 space-y-2"><li>• Built robot-server microservices for Omron fleets</li><li>• VFM simulator (ROS 2↔MQTT) for AMR testing</li><li>• Smart rack (Pi/ESP32) with Modbus↔MQTT</li><li>• Isaac Sim pipelines with ROS 2 bridges</li><li>• Voice assistant for floor ops (Whisper/LLM)</li></ul></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="max-w-7xl mx-auto px-5">
+    <h2 class="text-3xl font-extrabold">Contact</h2>
+    <p class="mt-2 text-slate-700">Open to Robotics/AV/Industrial Automation roles (Bengaluru • India • Remote).</p>
+    <div class="mt-5 flex flex-wrap gap-3">
+      <a href="mailto:kishanbillava73@gmail.com" class="btn btn-brand">📧 Email</a>
+      <a href="https://github.com/kishanbillava" target="_blank" class="btn btn-ghost">GitHub</a>
+      <a href="https://linkedin.com/in/kishanbillava" target="_blank" class="btn btn-ghost">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center text-xs text-slate-500 py-8">
+  © <span id="y"></span> Kishan Billava • Last updated <span id="d"></span>
+</footer>
+
 <script>
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>
+  const now=new Date(); 
+  document.getElementById('y').textContent=now.getFullYear();
+  document.getElementById('d').textContent=now.toLocaleDateString();
 
+  const ids=['about','skills','projects','certs','experience','math','blog','research','activities','books','resume','contact'];
+  const links=[...document.querySelectorAll('#navLinks a')];
+  const obs=new IntersectionObserver(es=>{
+    es.forEach(e=>{
+      const id=e.target.id, a=links.find(l=>l.getAttribute('href')==='#'+id);
+      if(a){ e.isIntersecting ? a.classList.add('nav-active') : a.classList.remove('nav-active'); }
+    });
+  },{rootMargin:'-45% 0px -55% 0px', threshold:0});
+  ids.forEach(i=>{const el=document.getElementById(i); if(el) obs.observe(el);});
+</script>
 </body>
 </html>
